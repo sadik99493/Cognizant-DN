@@ -8,7 +8,7 @@ public class Main {
         if (tp == 0) {
             return p;
         }
-        return find_comp(tp - 1, principal,r) * (1 + r);
+        return find_comp(tp - 1, p,r) * (1 + r);
     }
 
     public static void main(String[] args) {
@@ -34,7 +34,7 @@ public class Main {
         double return_value = find_comp(periods, principal, rate_of_interest_per_period);
 
         // output
-        System.out.printf("\nForecasted Value after %d years : ₹%.2f\n",
+        System.out.printf("\nForecasted Value after %d years : %.2f\n",
                 years, return_value);
 
         scanner.close();
