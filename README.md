@@ -7,7 +7,7 @@ Cognizant-DN/
     |---[Topic_name-1]/
         |---[Hands-on number]_[Hands-on Title]/
             |---Code
-                |---src/main/java/org/example ---> Contains the actual code files remaining are just gradle build stuf
+                |---src/main/java/org/example ---> Contains the actual code files remaining are just gradle build stuff
             |---Output
                 |--Output Screenshots
                 |---Output description for theory parts
